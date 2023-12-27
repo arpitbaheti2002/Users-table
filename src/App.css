@@ -62,7 +62,7 @@ th {
 }
 
 th input{
-  height: 4vh;
+  height: 20px;
   width: 90%;
   border: 1px solid gainsboro;
   padding: 0px 10px;
@@ -88,6 +88,7 @@ td {
 /* List Controls */
 .list-controls{
   height: 8vh;
+  width: calc(100vw -  60px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +96,7 @@ td {
 }
 
 .list-controls .buttons{
-  width: 20vw;
+  width: 400px;
 }
 
 .list-controls .buttons button{
@@ -111,8 +112,9 @@ td {
 }
 
 .list-controls .page-info{
-  width: 20vw;
+  width: 400px;
   font-size: 16px;
+  text-align: right;
 }
 
 .list-controls .page-info input{
