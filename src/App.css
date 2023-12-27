@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App{
+  margin: 20px;
+}
+
+/* Header */
+.header{
+  height: calc(10vh - 10px);
+  width: calc(100vw -  76px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAFAFA;
+  padding: 0px 8px;
+}
+
+/* Global Search */
+.global-search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  width: 18vw;
+  border: 1px solid gainsboro;
+  background-color: #FFF;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.global-search input{
+  height: 100%;
+  width: 90%;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+
+/* Table */
+table{
+  width: calc(100vw - 60px);
+  border-collapse: collapse;
+}
+
+/* Table head */
+th {
+  height: 6.5vh;
+  text-align: left;
+  background-color: #FAFAFA;
+  padding: 0px 8px;
+  user-select: none;
+}
+
+.arrows{
+  font-size: 30px;
+  font-weight: 300;
+  /* color: gainsboro; */
+}
+
+th input{
+  height: 4vh;
+  width: 90%;
+  border: 1px solid gainsboro;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+
+/* Table body */
+td {
+  padding: 4px 8px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.delete-button{
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: #FFF;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* List Controls */
+.list-controls{
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+
+.list-controls .buttons{
+  width: 20vw;
+}
+
+.list-controls .buttons button{
+  height: 25px;
+  padding: 0px 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.list-controls .page-numbers{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.list-controls .page-info{
+  width: 20vw;
+  font-size: 16px;
+}
+
+.list-controls .page-info input{
+  width: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+.list-controls .page-info select{
+  width: 40px;
+  height: 30px;
+}
+
+.sorted-header {
+  color: blue; 
+  font-size: 18px;
+}
